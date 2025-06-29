@@ -1,0 +1,83 @@
+
+.book-container{
+    margin: 0 10%;
+    padding: 0 5%;
+
+}
+.book-details{
+    text-align: center;
+}
+.book-sub{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;  
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+.book-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+    text-align: center;
+}
+.book-info p{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 18px;
+    color: rgb(63, 61, 61);
+}
+.book-image{
+    width: 90%;
+    height: auto;
+}
+.booking-form{
+    text-align: start;
+}
+.book-label{
+    font-size: 15px;
+    color: #333;
+    padding: 10px 10px; 
+    font-weight: bold;
+}
+.book-input{
+    margin: 10px;
+    padding: 8px;
+}
+#book-det{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.book-btn{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #007bff;
+    cursor: pointer;
+}
+input[type="date"]{
+    background-color: rgba(0, 123, 255, 0.1);
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.laoding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+}

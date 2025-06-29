@@ -1,0 +1,87 @@
+.hero {
+  width: 100%;              
+  height: 100vh;             
+  background-image: url("../assets/images/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 60px;
+  box-sizing: border-box;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;          
+  color: white;
+}
+
+.hero-content {
+  text-align:center;
+  background-color: rgba(0, 0, 0, 0.7); 
+  padding: 180px 370px;
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+#main-title{
+    font-size: 60px;
+    animation: fallFromTop 1s ease-out forwards;
+    opacity: 0; 
+    margin-bottom: 5px;
+}
+
+@keyframes fallFromTop {
+ 0% {
+    opacity: 0;
+    transform: translateY(-300px) rotate(-10deg);
+    animation-timing-function: cubic-bezier(0.75, 0, 1, 1); 
+  }
+
+  60% {
+    opacity: 1;
+    transform: translateY(20px) rotate(2deg);
+    animation-timing-function: ease-out; 
+  }
+
+  80% {
+    opacity: 1;
+    transform: translateY(-30px) rotate(-2deg); 
+    animation-timing-function: ease-in;
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg); 
+    animation-timing-function: ease-out;
+  }
+}
+
+#main-dec{
+    margin-top: 0;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+a{
+    text-decoration: none;
+    margin-top: 20px;
+}
+.explore-button{
+    color: black;
+    background-color: #007bff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+    transition: padding 0.3s ease, font-size 0.3s ease;
+}
+.explore-button:hover{
+  color: black;
+  padding: 18px;
+  font-size: 22px;
+}
+
+
+

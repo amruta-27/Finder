@@ -1,0 +1,44 @@
+.register{
+    margin: 30px 80px;
+    text-align: center;
+}
+.register-form{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    padding: 50px;
+}
+
+.form-data{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    justify-content: center;
+    text-align: center;
+    margin: 40px;
+}
+.form-data input, select{
+    margin: 0 30px;
+    padding: 10px;
+    border: solid gray 1px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 15px;
+}
+.register-btn{
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    background-color: #007bff;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.register-text{
+    font-size: 14px;
+    color: rgb(94, 92, 92);
+    margin: 3px;
+}
+.register-link{
+    font-size: 15px;
+    color: rgb(44, 43, 43);
+}

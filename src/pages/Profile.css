@@ -1,0 +1,67 @@
+.profile-page{
+    margin: 100px;
+}
+.profile-container{
+    padding: 50px;
+    margin: 20px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+.profile-icon{
+    color: #007bff;
+    font-size: 40px;
+    font-weight: bold;    
+}
+.profile-data p{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px;
+    color: rgb(80, 78, 78);
+}
+.booking-item{
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    background-color: #fdfefe;
+}
+.book-data{
+    display: inline-block;
+    font-size: 18px;
+    padding: 15px;
+}
+.book-name{
+    font-size: 25px;
+    color: rgb(76, 70, 70);
+}
+.book-edit, .book-dlt{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+}
+.book-dlt{
+    color: red;
+}
+.logout-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 20%;
+    font-weight: bold;
+}
+.laoding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+}
