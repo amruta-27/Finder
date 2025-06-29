@@ -1,0 +1,57 @@
+.hotel-details-page{
+    margin: 20px 50px;
+    text-align: center;
+}
+
+.hotel-details-container{
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    margin: 5% 20%;
+    padding: 50px;
+}
+
+.hotel-details-img{
+    height: 300px;
+    width: 600px;
+}
+.hotel-details-title{
+    font-size: 30px;
+    padding: 10px;
+}
+.hotel-primary p{
+    display: inline-block;
+    margin: 8px 40px;
+    color: rgb(94, 91, 91);
+    font-size: 20px;
+}
+.hotel-details-description{
+    padding: 0 15px;
+}
+.booking-btn{
+    width: 70%;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.booking-link {
+    color: white;
+    font-size: 20px;
+}
+.hotel-owner-link, .hotel-map-link, .hotel-back-link{
+    padding: 10px;
+    text-decoration: underline;
+}
+.hotel-owner-link:hover, .hotel-map-link:hover, .hotel-back-link{
+    color: slateblue;
+}
+.laoding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+}

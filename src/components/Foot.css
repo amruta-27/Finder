@@ -1,0 +1,66 @@
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 40px;
+  justify-content:center;
+  padding: 40px 80px;
+}
+.footer-content {
+  text-align: center;
+  gap: 20px;
+  padding: 0px;
+}
+
+.link{
+    display: block;
+    padding: 5px;
+}
+a{
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s ease
+}
+a:hover{
+    color: #007bff;
+}
+.quick-links{
+    font-size: 20px;
+    color: rgb(56, 54, 54);
+}
+.description{
+    font-size: 16px;
+}
+#email{
+    font-size: 15px;
+    padding: 8px;
+    margin: 5px;
+    border: solid gray 1px;
+    border-radius: 5px;
+    width: 200px;
+}
+#submit-email{
+    font-size: 15px;
+    padding: 8.5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.logo{
+    background-image: linear-gradient(to right, #000, #007bff, #000, #007bff);
+    background-clip: text;     
+    -webkit-text-fill-color: transparent;
+    font-family: Verdana, sans-serif;
+}
+.foot-bottom{
+    font-size: 15px;
+    margin: 40px;
+    color: gray;
+    display: block;
+    text-align: center;
+}
+hr{
+    margin: 30px 80px;
+    color: black;
+}

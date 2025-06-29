@@ -1,0 +1,70 @@
+.hotel-page{
+    margin: 50px;
+}
+
+.hotel-main-title{
+    text-align: center;
+    color: #007bff;
+    font-size: 30px;
+    
+}
+
+.hotel-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+    width: 500px;
+}
+
+.hotel-card{
+    border:  solid #007bff 0.5px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    transition: box-shadow 0.4s ease, border 0.4s ease;
+}
+
+.hotel-card:hover{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.6);
+    border: none;
+}
+
+.hotel-info p{
+    display: inline-block;
+    margin: 0px;
+}
+
+.hotel-name{
+    font-weight: bold;
+    font-size: 25px;
+}
+.hotel-price,.hotel-city{
+    font-size: 20px;
+    color: rgb(75, 73, 73);
+    padding: 5px 10px;
+}
+.hotel-img{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+}
+.laoding{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007bff;
+}
+.filter{
+    text-align: center;
+}
+.search-input{
+    width: 50%;
+    border: solid 1px #007bff;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+}
